@@ -23,5 +23,5 @@ if seconds_to_wait < 0:
 pid = os.getpid()
 
 for i in range(seconds_to_wait):
-    print(f'En el proceso con PID {pid}, ha contado {i+1} segundos...')
+    print(f'El proceso con PID {pid} ha contado {i+1} segundos...')
     time.sleep(1)
