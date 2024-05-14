@@ -1,4 +1,4 @@
-# !/usr/bin python
+#!/usr/bin python
 import os
 
 desired_path = '/dev'
