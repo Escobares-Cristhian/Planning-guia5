@@ -4,7 +4,7 @@ import sys
 # ----- Checkeo de argumentos -----
 if len(sys.argv) != 3:
     print('Error en la cantidad de argumentos. Se esperaban 2.')
-    print('Uso: python eje3.py <sueldo> <rango>')
+    print('Uso: python eje4.py <sueldo> <rango>')
     print('<sueldo>: sueldo bruto del empleado. Debe ser un número real.')
     print('<rango>: rango del empleado. Debe ser un número entero entre 1 y 3.')
     sys.exit(1)
